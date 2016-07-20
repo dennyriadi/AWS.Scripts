@@ -1,0 +1,21 @@
+[
+  {
+    "Classification": "hadoop-env",
+    "Properties": {
+
+    },
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "HADOOP_DATANODE_HEAPSIZE": "4048",
+          "HADOOP_NAMENODE_OPTS": "-XX:GCTimeRatio=19",
+          "HADOOP_NAMENODE_HEAPSIZE": "3048"
+        },
+        "Configurations": [
+
+        ]
+      }
+    ]
+  }
+]
